@@ -13,6 +13,3 @@ pip install -r requirements.txt
 python src/train.py
 python src/evaluate.py
 uvicorn app.main:app --reload
-
-## CI
-Pushes to `main` run `.github/workflows/ml-pipeline.yml`.
