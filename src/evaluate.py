@@ -14,5 +14,5 @@ preds = model.predict(X)
 acc = accuracy_score(y, preds)
 print(f"Model accuracy: {acc}")
 
-if acc < THRESHOLD:
+if acc < THRESHOLD
     raise ValueError(f"Model accuracy {acc} below threshold {THRESHOLD}")
